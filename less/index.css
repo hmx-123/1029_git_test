@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container {
+  overflow-x: hidden;
+  position: relative;
+}
+.swiper-container .swiper-wrapper {
+  display: flex;
+  width: 600%;
+}
+.swiper-container .swiper-wrapper .swiper-slider {
+  flex: 1;
+}
+.swiper-container .swiper-wrapper .swiper-slider img {
+  width: 100%;
+}
+.swiper-container .dots {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+.swiper-container .dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+  margin: 5px;
+}
+.swiper-container .dots span.active {
+  background: tomato;
+}

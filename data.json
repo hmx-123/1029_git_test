@@ -1,0 +1,16 @@
+{
+    "sliderList":[
+        {
+            "id":1,
+            "img":"./imgs/1.jpg"
+        },
+        {
+            "id":2,
+            "img":"./imgs/2.jpg"
+        },
+        {
+            "id":3,
+            "img":"./imgs/3.jpg"
+        }
+    ]
+}
